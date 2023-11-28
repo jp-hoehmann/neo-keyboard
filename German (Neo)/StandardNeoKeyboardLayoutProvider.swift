@@ -11,17 +11,21 @@ import KeyboardKit
 
 class StandardNeoKeyboardLayoutProvider: StandardKeyboardLayoutProvider {
     override init(
+            keyboardContext: KeyboardContext,
             inputSetProvider: InputSetProvider,
-            dictationReplacement: KeyboardAction? = nil
+            localizedProviders: [LocalizedKeyboardLayoutProvider] = [EnglishKeyboardLayoutProvider()]
     ) {
-        super.init(inputSetProvider: inputSetProvider, dictationReplacement: dictationReplacement)
+        super.init(
+            keyboardContext: keyboardContext,
+            inputSetProvider: inputSetProvider,
+            localizedProviders: localizedProviders)
         iPhoneProvider = iPhoneNeoKeyboardLayoutProvider(
                 inputSetProvider: inputSetProvider,
-                dictationReplacement: dictationReplacement
+                dictationReplacement: keyboardContext.keyboardDictationReplacement
         )
         iPadProvider = iPadNeoKeyboardLayoutProvider(
                 inputSetProvider: inputSetProvider,
-                dictationReplacement: dictationReplacement
+                dictationReplacement: keyboardContext.keyboardDictationReplacement
         )
     }
 }

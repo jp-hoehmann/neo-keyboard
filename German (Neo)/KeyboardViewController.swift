@@ -15,7 +15,9 @@ class KeyboardViewController: KeyboardInputViewController {
 
     override func viewDidLoad() {
         inputSetProvider = NeoInputSetProvider()
-        keyboardLayoutProvider = StandardNeoKeyboardLayoutProvider(inputSetProvider: inputSetProvider)
+        keyboardLayoutProvider = StandardNeoKeyboardLayoutProvider(
+            keyboardContext: KeyboardContext(),
+            inputSetProvider: inputSetProvider)
         super.viewDidLoad()
     }
 
