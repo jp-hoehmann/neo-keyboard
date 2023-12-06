@@ -15,22 +15,22 @@ class iPhoneNeoKeyboardLayoutProvider: iPhoneKeyboardLayoutProvider {
             row: Int,
             index: Int,
             context: KeyboardContext
-    ) -> KeyboardLayoutItemWidth {
+    ) -> KeyboardLayoutItem.Width {
         switch action {
         case .character, .backspace: return .input
         default: return super.itemSizeWidth(for: action, row: row, index: index, context: context)
         }
     }
 
-    override func lowerLeadingActions(for actions: KeyboardActionRows, context: KeyboardContext) -> KeyboardActions {
+    override func lowerLeadingActions(for actions: KeyboardAction.Rows, context: KeyboardContext) -> KeyboardAction.Row {
         []
     }
 
-    override func lowerTrailingActions(for actions: KeyboardActionRows, context: KeyboardContext) -> KeyboardActions {
+    override func lowerTrailingActions(for actions: KeyboardAction.Rows, context: KeyboardContext) -> KeyboardAction.Row {
         [.backspace]
     }
 
-    override func bottomActions(for context: KeyboardContext) -> KeyboardActions {
+    override func bottomActions(for context: KeyboardContext) -> KeyboardAction.Row {
         [
             context.needsInputModeSwitchKey.then(.nextKeyboard),
             keyboardSwitchActionForBottomRow(for: context),

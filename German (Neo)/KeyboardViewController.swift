@@ -14,16 +14,13 @@ import SwiftUI
 class KeyboardViewController: KeyboardInputViewController {
 
     override func viewDidLoad() {
-        inputSetProvider = NeoInputSetProvider()
-        keyboardLayoutProvider = StandardNeoKeyboardLayoutProvider(
-            keyboardContext: KeyboardContext(),
-            inputSetProvider: inputSetProvider)
+        keyboardLayoutProvider = NeoKeyboardLayoutProvider()
         super.viewDidLoad()
     }
 
     override func viewWillSetupKeyboard() {
         super.viewWillSetupKeyboard()
-        setup(with: KeyboardView())
+        setup { controller in SystemKeyboard(controller: controller, autocompleteToolbar: .none) }
     }
 
 }
