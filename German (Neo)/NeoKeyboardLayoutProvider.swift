@@ -22,52 +22,43 @@ class NeoKeyboardLayoutProvider: KeyboardLayoutProvider {
     /**
      The input set to use for alphanumeric keyboards.
      */
-    public static var alphabeticInputSet: AlphabeticInputSet {
-        AlphabeticInputSet(rows: [
-            InputSetRow(chars: "xvlcwkhgfqß"),
-            InputSetRow(chars: "uiaeosnrtdy"),
-            InputSetRow(lowercased: "üöäpzbm,.j", uppercased: "ÜÖÄPZBM–•J")
+    public static var alphabeticInputSet: InputSet {
+        InputSet(rows: [
+            InputSet.Row(chars: "xvlcwkhgfqß"),
+            InputSet.Row(chars: "uiaeosnrtdy"),
+            InputSet.Row(lowercased: "üöäpzbm,.j", uppercased: "ÜÖÄPZBM–•J")
         ])
     }
     
     /**
      The input set to use for numeric keyboards.
      */
-    public static var numericInputSet: NumericInputSet {
-        NumericInputSet(rows: [
-            InputSetRow(chars: "1234567890'"),
-            InputSetRow(chars: "\\/{}*?()-:@"),
-            InputSetRow(chars: "°§ℓ»«$€„“”"),
+    public static var numericInputSet: InputSet {
+        InputSet(rows: [
+            InputSet.Row(chars: "1234567890'"),
+            InputSet.Row(chars: "\\/{}*?()-:@"),
+            InputSet.Row(chars: "°§ℓ»«$€„“”"),
         ])
     }
     
     /**
      The input set to use for symbolic keyboards.
      */
-    public static var symbolicInputSet: SymbolicInputSet {
-        SymbolicInputSet(rows: [
-            InputSetRow(chars: "#$|~`+%\"'; "),
-            InputSetRow(chars: "…_[]^!<>=&ſ"),
-            InputSetRow(chars: "¹²³›‹¢¥‚‘’")
+    public static var symbolicInputSet: InputSet {
+        InputSet(rows: [
+            InputSet.Row(chars: "#$|~`+%\"'; "),
+            InputSet.Row(chars: "…_[]^!<>=&ſ"),
+            InputSet.Row(chars: "¹²³›‹¢¥‚‘’")
         ])
     }
-    
-    /**
-     The input set provider, if any was registered.
-     */
-    private var inputSetProvider: KeyboardKit.InputSetProvider?
     
     func keyboardLayout(for context: KeyboardContext) -> KeyboardLayout {
         // Currently there is no device-specific layout.  If there were, we'd switch on context.deviceType here.
         iPhoneNeoKeyboardLayoutProvider(
-            alphabeticInputSet: inputSetProvider?.alphabeticInputSet ?? NeoKeyboardLayoutProvider.alphabeticInputSet,
-            numericInputSet: inputSetProvider?.numericInputSet ?? NeoKeyboardLayoutProvider.numericInputSet,
-            symbolicInputSet: inputSetProvider?.symbolicInputSet ?? NeoKeyboardLayoutProvider.symbolicInputSet)
-        .keyboardLayout(for: context)
+            alphabeticInputSet: NeoKeyboardLayoutProvider.alphabeticInputSet,
+            numericInputSet: NeoKeyboardLayoutProvider.numericInputSet,
+            symbolicInputSet: NeoKeyboardLayoutProvider.symbolicInputSet)
+            .keyboardLayout(for: context)
     }
-    
-    func register(inputSetProvider: KeyboardKit.InputSetProvider) {
-        self.inputSetProvider = inputSetProvider
-    }
-    
+
 }

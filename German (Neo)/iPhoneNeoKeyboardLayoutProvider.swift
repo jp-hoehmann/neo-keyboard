@@ -15,7 +15,7 @@ class iPhoneNeoKeyboardLayoutProvider: iPhoneKeyboardLayoutProvider {
             row: Int,
             index: Int,
             context: KeyboardContext
-    ) -> KeyboardLayoutItem.Width {
+    ) -> KeyboardLayout.ItemWidth {
         switch action {
         case .character, .backspace: return .input
         default: return super.itemSizeWidth(for: action, row: row, index: index, context: context)
