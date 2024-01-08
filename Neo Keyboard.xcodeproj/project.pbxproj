@@ -55,6 +55,7 @@
 		E9E9720086835F3326886B55 /* Bool+else.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+else.swift"; sourceTree = "<group>"; };
 		E9E97222BF73749A8ABBDE7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9E976107CC53B32F389D4E4 /* Neo Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neo Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E9779B16E35EC430C97E34 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		E9E97A13AF69EFF6029B385B /* NeoKeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoKeyboardApp.swift; sourceTree = "<group>"; };
 		E9E97CFFD85392ACF4FE2113 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9E97E28C37802F79D7FC738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,6 +137,7 @@
 				E9E975BC38E14F86A180EB12 /* Products */,
 				E9E9787F777A41B47A8E2083 /* Neo Keyboard */,
 				E1B34BB42915944C00495A18 /* Frameworks */,
+				E9E9779B16E35EC430C97E34 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};

@@ -1,0 +1,94 @@
+#
+# .gitignore
+# Neo Keyboard
+#
+# Created by Jean-Pierre Höhmann on 2024-01-08.
+#
+
+#
+# XCode
+#
+
+# User settings
+xcuserdata/
+
+# Obj-C/Swift specific
+*.hmap
+
+# App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Frameworks
+*.xcframework/
+*.framework/
+
+#
+# Swift Package Manager
+#
+
+Packages/
+Package.pins
+Package.resolved
+
+#
+# Build artifacts
+#
+
+.build/
+
+#
+# SwiftGen
+#
+
+*+Generated.swift
+
+#
+# Backup
+#
+
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+#
+# Vim
+#
+
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+
+# Auto-generated tag files
+tags
+
+# Persistent undo
+[._]*.un~
+
+#
+# macOS
+#
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
