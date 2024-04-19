@@ -9,7 +9,7 @@
 import Foundation
 import KeyboardKit
 
-class iPhoneNeoKeyboardLayoutProvider: iPhoneKeyboardLayoutProvider {
+class iPhoneNeoKeyboardLayoutProvider: KeyboardLayout.iPhoneProvider {
     override func itemSizeWidth(
             for action: KeyboardAction,
             row: Int,
