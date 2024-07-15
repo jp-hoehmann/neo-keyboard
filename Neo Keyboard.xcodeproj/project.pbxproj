@@ -46,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E101F8CF2C46B0F80039CD6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhoneNeoKeyboardLayoutProvider.swift; sourceTree = "<group>"; };
 		E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoKeyboardLayoutProvider.swift; sourceTree = "<group>"; };
 		E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "German (Neo).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +134,7 @@
 		E9E97CFA0BF4CBB103F80A3A = {
 			isa = PBXGroup;
 			children = (
+				E101F8CF2C46B0F80039CD6C /* README.md */,
 				E163EF9027E5F88F003DCBE5 /* German (Neo) */,
 				E9E975BC38E14F86A180EB12 /* Products */,
 				E9E9787F777A41B47A8E2083 /* Neo Keyboard */,
