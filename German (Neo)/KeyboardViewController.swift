@@ -14,14 +14,14 @@ import SwiftUI
 class KeyboardViewController: KeyboardInputViewController {
 
     override func viewDidLoad() {
-        services.layoutProvider = NeoKeyboardLayoutProvider()
+        services.layoutService = NeoKeyboardLayoutService()
         super.viewDidLoad()
     }
 
     override func viewWillSetupKeyboard() {
         super.viewWillSetupKeyboard()
         setup { controller in
-            SystemKeyboard(
+            KeyboardView(
                     state: controller.state,
                     services: controller.services,
                     buttonContent: { $0.view },

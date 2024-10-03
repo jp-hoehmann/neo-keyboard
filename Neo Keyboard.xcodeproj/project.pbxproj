@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1503BD62B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutProvider.swift */; };
-		E1503BD92B21305800D6BE25 /* NeoKeyboardLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutProvider.swift */; };
+		E1503BD62B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift */; };
+		E1503BD92B21305800D6BE25 /* NeoKeyboardLayoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutService.swift */; };
 		E163EF9227E5F88F003DCBE5 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163EF9127E5F88F003DCBE5 /* KeyboardViewController.swift */; };
 		E163EF9627E5F88F003DCBE5 /* German (Neo).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E1B34BB72915969D00495A18 /* Sequence+compacted.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97EBD073D2FF98A696E28 /* Sequence+compacted.swift */; };
@@ -47,8 +47,8 @@
 
 /* Begin PBXFileReference section */
 		E101F8CF2C46B0F80039CD6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhoneNeoKeyboardLayoutProvider.swift; sourceTree = "<group>"; };
-		E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoKeyboardLayoutProvider.swift; sourceTree = "<group>"; };
+		E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhoneNeoKeyboardLayoutService.swift; sourceTree = "<group>"; };
+		E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoKeyboardLayoutService.swift; sourceTree = "<group>"; };
 		E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "German (Neo).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E163EF9127E5F88F003DCBE5 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		E163EF9327E5F88F003DCBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,13 +85,13 @@
 		E163EF9027E5F88F003DCBE5 /* German (Neo) */ = {
 			isa = PBXGroup;
 			children = (
-				E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutProvider.swift */,
+				E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift */,
 				E163EF9127E5F88F003DCBE5 /* KeyboardViewController.swift */,
 				E163EF9327E5F88F003DCBE5 /* Info.plist */,
 				E9E97EBD073D2FF98A696E28 /* Sequence+compacted.swift */,
 				E9E9720086835F3326886B55 /* Bool+else.swift */,
 				E9E97088C34D597A778A7F9C /* Bool+then.swift */,
-				E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutProvider.swift */,
+				E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutService.swift */,
 			);
 			path = "German (Neo)";
 			sourceTree = "<group>";
@@ -251,8 +251,8 @@
 				E1B34BB829159BB100495A18 /* Bool+else.swift in Sources */,
 				E1B34BB929159BB100495A18 /* Bool+then.swift in Sources */,
 				E1B34BB72915969D00495A18 /* Sequence+compacted.swift in Sources */,
-				E1503BD62B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutProvider.swift in Sources */,
-				E1503BD92B21305800D6BE25 /* NeoKeyboardLayoutProvider.swift in Sources */,
+				E1503BD62B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift in Sources */,
+				E1503BD92B21305800D6BE25 /* NeoKeyboardLayoutService.swift in Sources */,
 				E163EF9227E5F88F003DCBE5 /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
