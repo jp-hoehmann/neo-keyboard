@@ -204,11 +204,11 @@
 			};
 			buildConfigurationList = E9E971FD2E5E4180F51517DE /* Build configuration list for PBXProject "Neo Keyboard" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = E9E97CFA0BF4CBB103F80A3A;
 			packageReferences = (
