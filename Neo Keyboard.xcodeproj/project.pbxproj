@@ -10,7 +10,7 @@
 		E1503BD62B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift */; };
 		E1503BD92B21305800D6BE25 /* NeoKeyboardLayoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutService.swift */; };
 		E163EF9227E5F88F003DCBE5 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163EF9127E5F88F003DCBE5 /* KeyboardViewController.swift */; };
-		E163EF9627E5F88F003DCBE5 /* German (Neo).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E163EF9627E5F88F003DCBE5 /* German (Neo).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E1B34BB72915969D00495A18 /* Sequence+compacted.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97EBD073D2FF98A696E28 /* Sequence+compacted.swift */; };
 		E1B34BB829159BB100495A18 /* Bool+else.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9720086835F3326886B55 /* Bool+else.swift */; };
 		E1B34BB929159BB100495A18 /* Bool+then.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97088C34D597A778A7F9C /* Bool+then.swift */; };
@@ -32,15 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E163EF7627E5EED9003DCBE5 /* Embed App Extensions */ = {
+		E163EF7627E5EED9003DCBE5 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				E163EF9627E5F88F003DCBE5 /* German (Neo).appex in Embed App Extensions */,
+				E163EF9627E5F88F003DCBE5 /* German (Neo).appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -173,7 +173,7 @@
 				E9E97E925A866E5C22BE850F /* Sources */,
 				E9E970AFB22579897C3FFDC3 /* Frameworks */,
 				E9E97011AE11352AABA266E7 /* Resources */,
-				E163EF7627E5EED9003DCBE5 /* Embed App Extensions */,
+				E163EF7627E5EED9003DCBE5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -195,7 +195,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					E163EF8E27E5F88F003DCBE5 = {
 						CreatedOnToolsVersion = 13.2.1;
