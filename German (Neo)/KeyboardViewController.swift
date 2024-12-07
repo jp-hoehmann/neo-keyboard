@@ -19,8 +19,8 @@ class KeyboardViewController: KeyboardInputViewController {
     }
 
     override func viewWillSetupKeyboard() {
-        super.viewWillSetupKeyboard()
-        setup { controller in
+        super.viewWillSetupKeyboardView()
+        setupKeyboardView { controller in
             KeyboardView(
                     state: controller.state,
                     services: controller.services,
