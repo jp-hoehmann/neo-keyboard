@@ -18,7 +18,7 @@ class KeyboardViewController: KeyboardInputViewController {
         super.viewDidLoad()
     }
 
-    override func viewWillSetupKeyboard() {
+    override func viewWillSetupKeyboardView() {
         super.viewWillSetupKeyboardView()
         setupKeyboardView { controller in
             KeyboardView(
@@ -26,6 +26,7 @@ class KeyboardViewController: KeyboardInputViewController {
                     services: controller.services,
                     buttonContent: { $0.view },
                     buttonView: { $0.view },
+                    collapsedView: { _ in EmptyView() },
                     emojiKeyboard: { $0.view },
                     toolbar: { _ in EmptyView() })
         }

@@ -15,16 +15,16 @@ class NeoKeyboardLayoutService: KeyboardLayoutService {
     /// The locale identifier.
     ///
     public static var localeKey: String {
-        KeyboardLocale.german.id
+        Locale.german.identifier
     }
     
     /// The input set to use for alphanumeric keyboards.
     ///
     public static var alphabeticInputSet: InputSet {
         InputSet(rows: [
-            InputSet.Row(chars: "xvlcwkhgfqß"),
-            InputSet.Row(chars: "uiaeosnrtdy"),
-            InputSet.Row(lowercased: "üöäpzbm,.j", uppercased: "ÜÖÄPZBM–•J")
+            InputSet.ItemRow(chars: "xvlcwkhgfqß"),
+            InputSet.ItemRow(chars: "uiaeosnrtdy"),
+            InputSet.ItemRow(lowercased: "üöäpzbm,.j", uppercased: "ÜÖÄPZBM–•J")
         ])
     }
     
@@ -32,9 +32,9 @@ class NeoKeyboardLayoutService: KeyboardLayoutService {
     ///
     public static var numericInputSet: InputSet {
         InputSet(rows: [
-            InputSet.Row(chars: "1234567890'"),
-            InputSet.Row(chars: "\\/{}*?()-:@"),
-            InputSet.Row(chars: "°§ℓ»«$€„“”"),
+            InputSet.ItemRow(chars: "1234567890'"),
+            InputSet.ItemRow(chars: "\\/{}*?()-:@"),
+            InputSet.ItemRow(chars: "°§ℓ»«$€„“”"),
         ])
     }
     
@@ -42,9 +42,9 @@ class NeoKeyboardLayoutService: KeyboardLayoutService {
     ///
     public static var symbolicInputSet: InputSet {
         InputSet(rows: [
-            InputSet.Row(chars: "#$|~`+%\"'; "),
-            InputSet.Row(chars: "…_[]^!<>=&ſ"),
-            InputSet.Row(chars: "¹²³›‹¢¥‚‘’")
+            InputSet.ItemRow(chars: "#$|~`+%\"'; "),
+            InputSet.ItemRow(chars: "…_[]^!<>=&ſ"),
+            InputSet.ItemRow(chars: "¹²³›‹¢¥‚‘’")
         ])
     }
     
