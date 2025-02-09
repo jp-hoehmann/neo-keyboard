@@ -52,6 +52,7 @@
 		E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "German (Neo).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E163EF9127E5F88F003DCBE5 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		E163EF9327E5F88F003DCBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DC75502D4E79E50071629E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E9E97088C34D597A778A7F9C /* Bool+then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+then.swift"; sourceTree = "<group>"; };
 		E9E9720086835F3326886B55 /* Bool+else.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+else.swift"; sourceTree = "<group>"; };
 		E9E97222BF73749A8ABBDE7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -134,6 +135,7 @@
 		E9E97CFA0BF4CBB103F80A3A = {
 			isa = PBXGroup;
 			children = (
+				E1DC75502D4E79E50071629E /* LICENSE */,
 				E101F8CF2C46B0F80039CD6C /* README.md */,
 				E163EF9027E5F88F003DCBE5 /* German (Neo) */,
 				E9E975BC38E14F86A180EB12 /* Products */,
