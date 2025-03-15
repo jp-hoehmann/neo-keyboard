@@ -10,7 +10,7 @@
 		E1503BD62B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift */; };
 		E1503BD92B21305800D6BE25 /* NeoKeyboardLayoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutService.swift */; };
 		E163EF9227E5F88F003DCBE5 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163EF9127E5F88F003DCBE5 /* KeyboardViewController.swift */; };
-		E163EF9627E5F88F003DCBE5 /* German (Neo).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E163EF9627E5F88F003DCBE5 /* German Neo.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E163EF8F27E5F88F003DCBE5 /* German Neo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E1B34BB72915969D00495A18 /* Sequence+compacted.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97EBD073D2FF98A696E28 /* Sequence+compacted.swift */; };
 		E1B34BB829159BB100495A18 /* Bool+else.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9720086835F3326886B55 /* Bool+else.swift */; };
 		E1B34BB929159BB100495A18 /* Bool+then.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97088C34D597A778A7F9C /* Bool+then.swift */; };
@@ -38,7 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				E163EF9627E5F88F003DCBE5 /* German (Neo).appex in Embed Foundation Extensions */,
+				E163EF9627E5F88F003DCBE5 /* German Neo.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +49,7 @@
 		E101F8CF2C46B0F80039CD6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhoneNeoKeyboardLayoutService.swift; sourceTree = "<group>"; };
 		E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoKeyboardLayoutService.swift; sourceTree = "<group>"; };
-		E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "German (Neo).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E163EF8F27E5F88F003DCBE5 /* German Neo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "German Neo.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E163EF9127E5F88F003DCBE5 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		E163EF9327E5F88F003DCBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1DC75502D4E79E50071629E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E163EF9027E5F88F003DCBE5 /* German (Neo) */ = {
+		E163EF9027E5F88F003DCBE5 /* German Neo */ = {
 			isa = PBXGroup;
 			children = (
 				E1503BD32B212E2800D6BE25 /* iPhoneNeoKeyboardLayoutService.swift */,
@@ -94,7 +94,7 @@
 				E9E97088C34D597A778A7F9C /* Bool+then.swift */,
 				E1503BD82B21305800D6BE25 /* NeoKeyboardLayoutService.swift */,
 			);
-			path = "German (Neo)";
+			path = "German Neo";
 			sourceTree = "<group>";
 		};
 		E1B34BB42915944C00495A18 /* Frameworks */ = {
@@ -108,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				E9E976107CC53B32F389D4E4 /* Neo Keyboard.app */,
-				E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */,
+				E163EF8F27E5F88F003DCBE5 /* German Neo.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			children = (
 				E1DC75502D4E79E50071629E /* LICENSE */,
 				E101F8CF2C46B0F80039CD6C /* README.md */,
-				E163EF9027E5F88F003DCBE5 /* German (Neo) */,
+				E163EF9027E5F88F003DCBE5 /* German Neo */,
 				E9E975BC38E14F86A180EB12 /* Products */,
 				E9E9787F777A41B47A8E2083 /* Neo Keyboard */,
 				E1B34BB42915944C00495A18 /* Frameworks */,
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E163EF8E27E5F88F003DCBE5 /* German (Neo) */ = {
+		E163EF8E27E5F88F003DCBE5 /* German Neo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E163EF9727E5F88F003DCBE5 /* Build configuration list for PBXNativeTarget "German (Neo)" */;
+			buildConfigurationList = E163EF9727E5F88F003DCBE5 /* Build configuration list for PBXNativeTarget "German Neo" */;
 			buildPhases = (
 				E163EF8B27E5F88F003DCBE5 /* Sources */,
 				E163EF8C27E5F88F003DCBE5 /* Frameworks */,
@@ -160,12 +160,12 @@
 			);
 			dependencies = (
 			);
-			name = "German (Neo)";
+			name = "German Neo";
 			packageProductDependencies = (
 				E1C83A0827E682870015B7D3 /* KeyboardKit */,
 			);
 			productName = "German (Neo)";
-			productReference = E163EF8F27E5F88F003DCBE5 /* German (Neo).appex */;
+			productReference = E163EF8F27E5F88F003DCBE5 /* German Neo.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		E9E9746E5D687F9B248A918C /* Neo Keyboard */ = {
@@ -223,7 +223,7 @@
 			projectRoot = "";
 			targets = (
 				E9E9746E5D687F9B248A918C /* Neo Keyboard */,
-				E163EF8E27E5F88F003DCBE5 /* German (Neo) */,
+				E163EF8E27E5F88F003DCBE5 /* German Neo */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +275,7 @@
 /* Begin PBXTargetDependency section */
 		E163EF9527E5F88F003DCBE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E163EF8E27E5F88F003DCBE5 /* German (Neo) */;
+			target = E163EF8E27E5F88F003DCBE5 /* German Neo */;
 			targetProxy = E163EF9427E5F88F003DCBE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -285,10 +285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 42;
+				CURRENT_PROJECT_VERSION = 43;
 				DEVELOPMENT_TEAM = PKW2VF887G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "German (Neo)/Info.plist";
+				INFOPLIST_FILE = "German Neo/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "German (Neo)";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,10 +310,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 42;
+				CURRENT_PROJECT_VERSION = 43;
 				DEVELOPMENT_TEAM = PKW2VF887G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "German (Neo)/Info.plist";
+				INFOPLIST_FILE = "German Neo/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "German (Neo)";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CURRENT_PROJECT_VERSION = 42;
+				CURRENT_PROJECT_VERSION = 43;
 				DEVELOPMENT_ASSET_PATHS = "\"Neo Keyboard/Preview Content\"";
 				DEVELOPMENT_TEAM = PKW2VF887G;
 				ENABLE_PREVIEWS = YES;
@@ -423,7 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CURRENT_PROJECT_VERSION = 42;
+				CURRENT_PROJECT_VERSION = 43;
 				DEVELOPMENT_ASSET_PATHS = "\"Neo Keyboard/Preview Content\"";
 				DEVELOPMENT_TEAM = PKW2VF887G;
 				ENABLE_PREVIEWS = YES;
@@ -514,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E163EF9727E5F88F003DCBE5 /* Build configuration list for PBXNativeTarget "German (Neo)" */ = {
+		E163EF9727E5F88F003DCBE5 /* Build configuration list for PBXNativeTarget "German Neo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E163EF9827E5F88F003DCBE5 /* Debug */,

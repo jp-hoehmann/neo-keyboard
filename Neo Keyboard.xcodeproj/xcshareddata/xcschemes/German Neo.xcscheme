@@ -17,8 +17,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E163EF8E27E5F88F003DCBE5"
-               BuildableName = "German (Neo).appex"
-               BlueprintName = "German (Neo)"
+               BuildableName = "German Neo.appex"
+               BlueprintName = "German Neo"
                ReferencedContainer = "container:Neo Keyboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
