@@ -52,6 +52,7 @@
 		E163EF8F27E5F88F003DCBE5 /* German Neo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "German Neo.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E163EF9127E5F88F003DCBE5 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		E163EF9327E5F88F003DCBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B5F73B2D84A1F300E20BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1DC75502D4E79E50071629E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E9E97088C34D597A778A7F9C /* Bool+then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+then.swift"; sourceTree = "<group>"; };
 		E9E9720086835F3326886B55 /* Bool+else.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+else.swift"; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 				E9E978F6ABDC57AA5672D83E /* Preview Content */,
 				E9E97A13AF69EFF6029B385B /* NeoKeyboardApp.swift */,
 				E9E97CFFD85392ACF4FE2113 /* ContentView.swift */,
+				E1B5F73B2D84A1F300E20BCC /* Info.plist */,
 			);
 			path = "Neo Keyboard";
 			sourceTree = "<group>";
@@ -341,6 +343,7 @@
 				DEVELOPMENT_TEAM = PKW2VF887G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neo Keyboard/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -429,6 +432,7 @@
 				DEVELOPMENT_TEAM = PKW2VF887G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neo Keyboard/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
