@@ -287,7 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 52;
+				CURRENT_PROJECT_VERSION = 53;
 				DEVELOPMENT_TEAM = PKW2VF887G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "German Neo/Info.plist";
@@ -312,7 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 52;
+				CURRENT_PROJECT_VERSION = 53;
 				DEVELOPMENT_TEAM = PKW2VF887G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "German Neo/Info.plist";
